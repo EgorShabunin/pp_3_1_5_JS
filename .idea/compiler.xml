@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="PP_3_1_4_Boot_Rest_Security" />
+        <module name="Popitka4" />
+        <module name="Popitka2" />
+        <module name="pp_3_1_5_JS" />
+        <module name="Popitka3" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PP_3_1_4_Boot_Rest_Security" options="-parameters" />
+      <module name="Popitka2" options="-parameters" />
+      <module name="Popitka3" options="-parameters" />
+      <module name="Popitka4" options="-parameters" />
+      <module name="pp_3_1_5_JS" options="-parameters" />
+    </option>
+  </component>
+</project>
